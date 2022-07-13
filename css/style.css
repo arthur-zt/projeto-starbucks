@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.center{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+header{
+	height: 200px;
+	padding: 20px 0;
+}
+
+.logo{
+	width: 50%;
+
+}
+
+.menu{
+	padding-top: 30px;
+	width: 50%;
+	text-align: right;
+}
+
+.menu a:hover{
+	color: black;
+	transition: 0.4s;
+}
+
+.menu a{
+	color: rgb(150,150,150);
+	text-decoration: none;
+	font-weight:600 ;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+section.about{
+	height: calc(100% - 200px);
+	position: relative;
+}
+
+.extras{
+	position: absolute;
+	bottom:-600px;
+	right:-500px;
+	width: 1250px;
+	height: 1300px;
+	border-radius: 50%;
+	background: #017143;
+}
+
+.social-media{
+	position: absolute;
+	right: 515px;
+	top:280px;
+}
+
+.social-media img{
+	display: block;
+	margin:15px 0;
+	width: 22px;
+}
+
+.texto-sobre{
+	margin-top: 100px;
+}
+
+.texto-sobre h1{
+	font-size: 50px;
+}
+
+.texto-sobre span{
+	color: rgb(3, 130, 77);
+	font-weight: 900;
+	cursor: pointer;
+}
+
+.texto-sobre span:hover{
+	color: #017143;
+	transition: 0.4s;
+}
+
+.texto-sobre p{
+	color: rgb(30,30,30);
+	font-size: 15px;
+	font-weight: bold;
+	width: 50%;
+	margin: 20px 0;
+	max-width: 970px;
+}
+
+button{
+	border: 0;
+	background-color: rgb(3, 130, 77);
+	color: white;
+	border-radius: 30px;
+	width: 120px;
+	height: 50px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+button:hover{
+	background: #017143;
+	transition: 0.4s;
+}
